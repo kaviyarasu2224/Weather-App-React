@@ -1,4 +1,8 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
 [[redirects]]
   from = "/old-path"
   to = "/new-path"
-  status = 200
+  status = 301
