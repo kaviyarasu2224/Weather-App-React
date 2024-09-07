@@ -9,11 +9,16 @@
 .app {
   min-height: 100vh;
   display: grid;
-  background: linear-gradient(
-    175deg,
-    rgba(243, 49, 1, 0.795),
-    rgb(142, 6, 253)
-  );
+  background: 
+    linear-gradient(
+      175deg,
+      rgba(243, 49, 1, 0.151),
+      rgba(142, 6, 253, 0.199)
+    ),
+    url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGY2MWR0amQ1Z3g1MmpvMTUwaGtqMDRmcXpyamFyM2RsMnBiOHY3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uOuiK4F5zZkZ2/giphy-downsized-large.gif);
+  background-size: cover;
+  background-position: center;
 }
+
 
 
