@@ -1,10 +1,12 @@
 import React from "react";
 import Weather from "./components/Weather";
+import "bootstrap/dist/css/bootstrap.css";
 const App = () => {
   return (
-    <div className="app">
+    <div className="container-fluid app">
       
-      <Weather />
+        <Weather />
+      
     </div>
   );
 };
